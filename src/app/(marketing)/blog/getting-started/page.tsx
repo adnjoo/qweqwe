@@ -1,4 +1,4 @@
-import React from 'react';
+import BackToBlog from "@/src/components/layout/BackToBlog";
 
 const GettingStarted: React.FC = () => {
   return (
@@ -57,6 +57,7 @@ const GettingStarted: React.FC = () => {
             </a>
             .
           </p>
+          <BackToBlog />
         </footer>
       </article>
     </div>
